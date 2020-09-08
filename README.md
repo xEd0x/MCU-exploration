@@ -6,7 +6,7 @@ The goal was to represent the Marvel Cinematic Universe with a graph, showing th
 
 ## Features
 * Three different graphs, one for each phase, showing the connection with every superhero and every movie
- * Every superhero is represented with a circular picture of his face
- * Every movie is represented with a rectangular image of the movie poster
+  * Every superhero is represented with a circular picture of his face
+  * Every movie is represented with a rectangular image of the movie poster
 * When hovering the cursor on an image, it becomes a little bigger, the links to other nodes are highlighted and a brief description appears on the left
 * Possibility to drag the nodes smoothly
