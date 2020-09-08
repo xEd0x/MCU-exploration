@@ -36,7 +36,7 @@ function drawPhase(jsondata) {
             .attr("width", 50)
             .attr("height", 50)
             .on("mouseenter", function (d) {
-				let count = 0;
+		let count = 0;
                 d3.select(this)
                     .transition()
                     .attr("x", -50)
@@ -58,10 +58,10 @@ function drawPhase(jsondata) {
                     return link_d.source.id === d.id || link_d.target.id === d.id ? 2 : 1;
                 })
 
-				document.getElementById('info').innerHTML = 
-					'<ul><li>' + d.name + '</li>' + 
-					'<li> connected with ' + count + ' node(s)</li>' + 
-					'</ul>';
+		document.getElementById('info').innerHTML = 
+			'<ul><li>' + d.name + '</li>' + 
+			'<li> connected with ' + count + ' node(s)</li>' + 
+			'</ul>';
             })
             .on("mouseleave", function (d) {
                 d3.select(this)
