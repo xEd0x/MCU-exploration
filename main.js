@@ -60,8 +60,8 @@ function drawPhase(jsondata) {
 
 				document.getElementById('info').innerHTML = 
 					'<ul><li>' + d.name + '</li>' + 
-                    '<li> connected with ' + count + ' node(s)</li>' + 
-                    '</ul>';
+					'<li> connected with ' + count + ' node(s)</li>' + 
+					'</ul>';
             })
             .on("mouseleave", function (d) {
                 d3.select(this)
