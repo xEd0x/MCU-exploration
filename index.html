@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MCU</title>
+		<meta charset="utf-8">
+		<script src="https://d3js.org/d3.v4.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body onload = "drawPhase('data/data_phase1.json');">
+    	<script src = "main.js"></script>
+        <center><img src = "img/logo.png" height = "177" width = "640">
+        <div class="multi-button" width = "900px">
+          <button onclick = "handle('data/data_phase1.json');">Fase 1</button>
+          <button onclick = "handle('data/data_phase2.json');">Fase 2</button>
+          <button onclick = "handle('data/data_phase3.json');">Fase 3</button>
+        </div></center>
+        <center><svg id = "svg" width="1280" height="1000">
+        <div id = 'description'><p id = 'info'></p></div></svg></center>
+        
+        <script>
+        	function handle(phase) {
+                document.getElementById("svg").innerHTML = "";
+				drawPhase(phase);
+				window.scrollBy({ top: 400, left: 0, behavior: 'smooth' });
+            }
+        </script>
+	</body>
+</html>

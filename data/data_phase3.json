@@ -1,0 +1,515 @@
+{
+	"nodes": [
+		{
+			"id": "im",
+			"name": "Iron Man",
+			"img": "ironman.png"
+		},
+		{
+			"id": "wm",
+			"name": "War Machine",
+			"img": "warmachine.png"
+		},
+		{
+			"id": "nf",
+			"name": "Nick Fury",
+			"img": "nickfury.png"
+		},
+		{
+			"id": "hk",
+			"name": "Hulk",
+			"img": "hulk.png"
+		},
+		{
+			"id": "bw",
+			"name": "Vedova Nera",
+			"img": "vedovanera.png"
+		},
+		{
+			"id": "th",
+			"name": "Thor",
+			"img": "thor.png"
+		},
+		{
+			"id": "lk",
+			"name": "Loki",
+			"img": "loki.png"
+		},
+		{
+			"id": "cap",
+			"name": "Capitan America",
+			"img": "captainamerica.png"
+		},
+		{
+			"id": "ws",
+			"name": "Winter Soldier",
+			"img": "wintersoldier.png"
+		},
+		{
+			"id": "pq",
+			"name": "Starlord",
+			"img": "starlord.png"
+		},
+		{
+			"id": "rr",
+			"name": "Rocket Raccoon",
+			"img": "rocket.png"
+		},
+		{
+			"id": "gm",
+			"name": "Gamora",
+			"img": "gamora.png"
+		},
+		{
+			"id": "dr",
+			"name": "Drax",
+			"img": "drax.png"
+		},
+		{
+			"id": "gr",
+			"name": "Groot",
+			"img": "groot.png"
+		},
+		{
+			"id": "am",
+			"name": "Ant-Man",
+			"img": "antman.png"
+		},
+		{
+			"id": "nb",
+			"name": "Nebula",
+			"img": "nebula.png"
+		},
+		{
+			"id": "eye",
+			"name": "Occhio di falco",
+			"img": "occhiodifalco.png"
+		},
+		{
+			"id": "sw",
+			"name": "Scarlet Witch",
+			"img": "scarletwitch.png"
+		},
+		{
+			"id": "fa",
+			"name": "Falcon",
+			"img": "falcon.png"
+		},
+		{
+			"id": "vi",
+			"name": "Visione",
+			"img": "visione.png"
+		},
+		{
+			"id": "bp",
+			"name": "Black Panther",
+			"img": "blackpanther.png"
+		},
+		{
+			"id": "sp",
+			"name": "Spiderman",
+			"img": "spiderman.png"
+		},
+		{
+			"id": "ds",
+			"name": "Doctor Strange",
+			"img": "drstrange.png"
+		},
+		{
+			"id": "ms",
+			"name": "Mantis",
+			"img": "mantis.png"
+		},
+		{
+			"id": "wp",
+			"name": "Wasp",
+			"img": "wasp.png"
+		},
+		{
+			"id": "cp",
+			"name": "Captain Marvel",
+			"img": "captainmarvel.png"
+		},
+		{
+			"id": "capm3",
+			"name": "Captain America: Civil War",
+			"img": "captainamerica3.jpg"
+		},
+		{
+			"id": "dsm",
+			"name": "Doctor Strange",
+			"img": "drstrange1.jpg"
+		},
+		{
+			"id": "ggm2",
+			"name": "Guardiani della Galassia vol. 2",
+			"img": "guardianigalassia2.jpg"
+		},
+		{
+			"id": "spm",
+			"name": "Spiderman: Homecoming",
+			"img": "spiderman2.jpg"
+		},
+		{
+			"id": "thm3",
+			"name": "Thor: Ragnarock",
+			"img": "thor3.jpg"
+		},
+		{
+			"id": "bpm",
+			"name": "Black Panther",
+			"img": "blackpanther1.jpg"
+		},
+		{
+			"id": "avm3",
+			"name": "Avengers: Infinity War",
+			"img": "avengers3.jpg"
+		},
+		{
+			"id": "amm2",
+			"name": "Ant-Man and the Wasp",
+			"img": "antman2.jpg"
+		},
+		{
+			"id": "cpm",
+			"name": "Captain Marvel",
+			"img": "captainmarvel1.jpg"
+		},
+		{
+			"id": "avm4",
+			"name": "Avengers: Endgame",
+			"img": "avengers4.jpg"
+		},
+		{
+			"id": "spm2",
+			"name": "Spiderman: Far from Home",
+			"img": "spiderman2.jpg"
+		}
+	],
+	"links": [
+		{
+			"source": "cap",
+			"target": "capm3"
+		},
+		{
+			"source": "im",
+			"target": "capm3"
+		},
+		{
+			"source": "th",
+			"target": "capm3"
+		},
+		{
+			"source": "bw",
+			"target": "capm3"
+		},
+		{
+			"source": "cap",
+			"target": "capm3"
+		},
+		{
+			"source": "ws",
+			"target": "capm3"
+		},
+		{
+			"source": "fa",
+			"target": "capm3"
+		},
+		{
+			"source": "wm",
+			"target": "capm3"
+		},
+		{
+			"source": "eye",
+			"target": "capm3"
+		},
+		{
+			"source": "bp",
+			"target": "capm3"
+		},
+		{
+			"source": "vi",
+			"target": "capm3"
+		},
+		{
+			"source": "sw",
+			"target": "capm3"
+		},
+		{
+			"source": "am",
+			"target": "capm3"
+		},
+		{
+			"source": "sp",
+			"target": "capm3"
+		},
+		{
+			"source": "ds",
+			"target": "dsm"
+		},
+		{
+			"source": "pq",
+			"target": "ggm2"
+		},
+		{
+			"source": "dr",
+			"target": "ggm2"
+		},
+		{
+			"source": "rr",
+			"target": "ggm2"
+		},
+		{
+			"source": "gr",
+			"target": "ggm2"
+		},
+		{
+			"source": "gm",
+			"target": "ggm2"
+		},
+		{
+			"source": "nb",
+			"target": "ggm2"
+		},
+		{
+			"source": "ms",
+			"target": "ggm2"
+		},
+		{
+			"source": "sp",
+			"target": "spm"
+		},
+		{
+			"source": "im",
+			"target": "spm"
+		},
+		{
+			"source": "cap",
+			"target": "capm3"
+		},
+		{
+			"source": "th",
+			"target": "thm3"
+		},
+		{
+			"source": "hk",
+			"target": "thm3"
+		},
+		{
+			"source": "lk",
+			"target": "thm3"
+		},
+		{
+			"source": "bp",
+			"target": "bpm"
+		},
+		{
+			"source": "im",
+			"target": "avm3"
+		},
+		{
+			"source": "th",
+			"target": "avm3"
+		},
+		{
+			"source": "hk",
+			"target": "avm3"
+		},
+		{
+			"source": "cap",
+			"target": "avm3"
+		},
+		{
+			"source": "bw",
+			"target": "avm3"
+		},
+		{
+			"source": "ds",
+			"target": "avm3"
+		},
+		{
+			"source": "wm",
+			"target": "avm3"
+		},
+		{
+			"source": "sp",
+			"target": "avm3"
+		},
+		{
+			"source": "bp",
+			"target": "avm3"
+		},
+		{
+			"source": "vi",
+			"target": "avm3"
+		},
+		{
+			"source": "lk",
+			"target": "avm3"
+		},
+		{
+			"source": "sw",
+			"target": "avm3"
+		},
+		{
+			"source": "fa",
+			"target": "avm3"
+		},
+		{
+			"source": "ws",
+			"target": "avm3"
+		},
+		{
+			"source": "ms",
+			"target": "avm3"
+		},
+		{
+			"source": "nb",
+			"target": "avm3"
+		},
+		{
+			"source": "dr",
+			"target": "avm3"
+		},
+		{
+			"source": "gm",
+			"target": "avm3"
+		},
+		{
+			"source": "pq",
+			"target": "avm3"
+		},
+		{
+			"source": "rr",
+			"target": "avm3"
+		},
+		{
+			"source": "gr",
+			"target": "avm3"
+		},
+		{
+			"source": "nf",
+			"target": "avm3"
+		},
+		{
+			"source": "cp",
+			"target": "cpm"
+		},
+		{
+			"source": "nf",
+			"target": "cpm"
+		},
+		{
+			"source": "im",
+			"target": "avm4"
+		},
+		{
+			"source": "th",
+			"target": "avm4"
+		},
+		{
+			"source": "hk",
+			"target": "avm4"
+		},
+		{
+			"source": "cap",
+			"target": "avm4"
+		},
+		{
+			"source": "bw",
+			"target": "avm4"
+		},
+		{
+			"source": "ds",
+			"target": "avm4"
+		},
+		{
+			"source": "wm",
+			"target": "avm4"
+		},
+		{
+			"source": "sp",
+			"target": "avm4"
+		},
+		{
+			"source": "bp",
+			"target": "avm4"
+		},
+		{
+			"source": "eye",
+			"target": "avm4"
+		},
+		{
+			"source": "lk",
+			"target": "avm4"
+		},
+		{
+			"source": "sw",
+			"target": "avm4"
+		},
+		{
+			"source": "fa",
+			"target": "avm4"
+		},
+		{
+			"source": "ws",
+			"target": "avm4"
+		},
+		{
+			"source": "am",
+			"target": "avm4"
+		},
+		{
+			"source": "ms",
+			"target": "avm4"
+		},
+		{
+			"source": "nb",
+			"target": "avm4"
+		},
+		{
+			"source": "dr",
+			"target": "avm4"
+		},
+		{
+			"source": "gm",
+			"target": "avm4"
+		},
+		{
+			"source": "pq",
+			"target": "avm4"
+		},
+		{
+			"source": "rr",
+			"target": "avm4"
+		},
+		{
+			"source": "gr",
+			"target": "avm4"
+		},
+		{
+			"source": "cp",
+			"target": "avm4"
+		},
+		{
+			"source": "nf",
+			"target": "avm4"
+		},
+		{
+			"source": "wp",
+			"target": "avm4"
+		},
+		{
+			"source": "am",
+			"target": "amm2"
+		},
+		{
+			"source": "wp",
+			"target": "amm2"
+		},
+		{
+			"source": "sp",
+			"target": "spm2"
+		}
+	]
+}

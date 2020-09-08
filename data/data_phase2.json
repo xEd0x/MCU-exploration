@@ -1,0 +1,241 @@
+{
+	"nodes": [
+		{
+			"id": "im",
+			"name": "Iron Man",
+			"img": "ironman.png"
+		},
+		{
+			"id": "wm",
+			"name": "War Machine",
+			"img": "warmachine.png"
+		},
+		{
+			"id": "nf",
+			"name": "Nick Fury",
+			"img": "nickfury.png"
+		},
+		{
+			"id": "hk",
+			"name": "Hulk",
+			"img": "hulk.png"
+		},
+		{
+			"id": "bw",
+			"name": "Vedova Nera",
+			"img": "vedovanera.png"
+		},
+		{
+			"id": "th",
+			"name": "Thor",
+			"img": "thor.png"
+		},
+		{
+			"id": "lk",
+			"name": "Loki",
+			"img": "loki.png"
+		},
+		{
+			"id": "cap",
+			"name": "Capitan America",
+			"img": "captainamerica.png"
+		},
+		{
+			"id": "ws",
+			"name": "Winter Soldier",
+			"img": "wintersoldier.png"
+		},
+		{
+			"id": "pq",
+			"name": "Starlord",
+			"img": "starlord.png"
+		},
+		{
+			"id": "rr",
+			"name": "Rocket Raccoon",
+			"img": "rocket.png"
+		},
+		{
+			"id": "gm",
+			"name": "Gamora",
+			"img": "gamora.png"
+		},
+		{
+			"id": "dr",
+			"name": "Drax",
+			"img": "drax.png"
+		},
+		{
+			"id": "gr",
+			"name": "Groot",
+			"img": "groot.png"
+		},
+		{
+			"id": "am",
+			"name": "Ant-Man",
+			"img": "antman.png"
+		},
+		{
+			"id": "nb",
+			"name": "Nebula",
+			"img": "nebula.png"
+		},
+		{
+			"id": "eye",
+			"name": "Occhio di falco",
+			"img": "occhiodifalco.png"
+		},
+		{
+			"id": "sw",
+			"name": "Scarlet Witch",
+			"img": "scarletwitch.png"
+		},
+		{
+			"id": "fa",
+			"name": "Falcon",
+			"img": "falcon.png"
+		},
+		{
+			"id": "vi",
+			"name": "Visione",
+			"img": "visione.png"
+		},
+		{
+			"id": "imm3",
+			"name": "Iron Man 3",
+			"img": "ironman3.jpg"
+		},
+		{
+			"id": "thm2",
+			"name": "Thor: The Dark World",
+			"img": "thor2.jpg"
+		},
+		{
+			"id": "capm2",
+			"name": "Captain America: The Winter Soldier",
+			"img": "captainamerica2.jpg"
+		},
+		{
+			"id": "ggm",
+			"name": "Guardiani della galassia",
+			"img": "guardianigalassia1.jpg"
+		},
+		{
+			"id": "avm2",
+			"name": "Avengers: Age of Ultron",
+			"img": "avengers2.jpg"
+		},
+		{
+			"id": "amm",
+			"name": "Ant-Man",
+			"img": "antman1.jpg"
+		}
+
+	],
+	"links": [
+		{
+			"source": "im",
+			"target": "imm3"
+		},
+		{
+			"source": "th",
+			"target": "thm2"
+		},
+		{
+			"source": "cap",
+			"target": "capm2"
+		},
+		{
+			"source": "bw",
+			"target": "capm2"
+		},
+		{
+			"source": "ws",
+			"target": "capm2"
+		},
+		{
+			"source": "fa",
+			"target": "capm2"
+		},
+		{
+			"source": "nf",
+			"target": "capm2"
+		},
+		{
+			"source": "pq",
+			"target": "ggm"
+		},
+		{
+			"source": "gm",
+			"target": "ggm"
+		},
+		{
+			"source": "rr",
+			"target": "ggm"
+		},
+		{
+			"source": "dr",
+			"target": "ggm"
+		},
+		{
+			"source": "gr",
+			"target": "ggm"
+		},
+		{
+			"source": "im",
+			"target": "avm2"
+		},
+		{
+			"source": "th",
+			"target": "avm2"
+		},
+		{
+			"source": "cap",
+			"target": "avm2"
+		},
+		{
+			"source": "hk",
+			"target": "avm2"
+		},
+		{
+			"source": "bw",
+			"target": "avm2"
+		},
+		{
+			"source": "eye",
+			"target": "avm2"
+		},
+		{
+			"source": "nf",
+			"target": "avm2"
+		},
+		{
+			"source": "wm",
+			"target": "avm2"
+		},
+		{
+			"source": "fa",
+			"target": "avm2"
+		},
+		{
+			"source": "sw",
+			"target": "avm2"
+		},
+		{
+			"source": "vi",
+			"target": "avm2"
+		},
+		{
+			"source": "am",
+			"target": "amm"
+		},
+		{
+			"source": "nb",
+			"target": "ggm"
+		},
+		{
+			"source": "lk",
+			"target": "thm2"
+		}
+	]
+}

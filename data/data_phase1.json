@@ -1,0 +1,161 @@
+{
+	"nodes": [
+		{
+			"id": "im",
+			"name": "Iron Man",
+			"img": "ironman.png"
+		},
+		{
+			"id": "wm",
+			"name": "War Machine",
+			"img": "warmachine.png"
+		},
+		{
+			"id": "nf",
+			"name": "Nick Fury",
+			"img": "nickfury.png"
+		},
+		{
+			"id": "hk",
+			"name": "Hulk",
+			"img": "hulk.png"
+		},
+		{
+			"id": "bw",
+			"name": "Vedova Nera",
+			"img": "vedovanera.png"
+		},
+		{
+			"id": "th",
+			"name": "Thor",
+			"img": "thor.png"
+		},
+		{
+			"id": "lk",
+			"name": "Loki",
+			"img": "loki.png"
+		},
+		{
+			"id": "cap",
+			"name": "Capitan America",
+			"img": "captainamerica.png"
+		},
+		{
+			"id": "eye",
+			"name": "Occhio di falco",
+			"img": "occhiodifalco.png"
+		},
+		{
+			"id": "imm",
+			"name": "IronMan",
+			"img": "ironman1.jpg"
+		},
+		{
+			"id": "hkm",
+			"name": "L'incredibile Hulk",
+			"img": "hulk1.jpg"
+		},
+		{
+			"id": "imm2",
+			"name": "IronMan 2",
+			"img": "ironman2.jpg"
+		},
+		{
+			"id": "thm",
+			"name": "Thor",
+			"img": "thor1.jpg"
+		},
+		{
+			"id": "capm",
+			"name": "Capitan America - Il primo vendicatore",
+			"img": "captainamerica1.jpg"
+		},
+		{
+			"id": "avm",
+			"name": "Avengers",
+			"img": "avengers1.jpg"
+		}
+	],
+	"links": [
+		{
+			"source": "im",
+			"target": "imm"
+		},
+		{
+			"source": "wm",
+			"target": "imm"
+		},
+		{
+			"source": "nf",
+			"target": "imm"
+		},
+		{
+			"source": "hk",
+			"target": "hkm"
+		},
+		{
+			"source": "im",
+			"target": "imm2"
+		},
+		{
+			"source": "wm",
+			"target": "imm2"
+		},
+		{
+			"source": "nf",
+			"target": "imm2"
+		},
+		{
+			"source": "bw",
+			"target": "imm2"
+		},
+		{
+			"source": "th",
+			"target": "thm"
+		},
+		{
+			"source": "lk",
+			"target": "thm"
+		},
+		{
+			"source": "cap",
+			"target": "capm"
+		},
+		{
+			"source": "im",
+			"target": "avm"
+		},
+		{
+			"source": "cap",
+			"target": "avm"
+		},
+		{
+			"source": "hk",
+			"target": "avm"
+		},
+		{
+			"source": "th",
+			"target": "avm"
+		},
+		{
+			"source": "lk",
+			"target": "avm"
+		},
+		{
+			"source": "bw",
+			"target": "avm"
+		},
+		{
+			"source": "nf",
+			"target": "avm"
+		},
+		{
+			"source": "wm",
+			"target": "avm"
+		},
+		{
+			"source": "eye",
+			"target": "avm"
+		}
+	]
+}
